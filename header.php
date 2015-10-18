@@ -28,7 +28,7 @@ $z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=ba
 	<header id="masthead" class="site-header" role="banner">
         <div class="contact-data clearfix">
         <div class="floatleft">
-            <?php _e('Telephone', 'traduset');?>:+49 40 368 44 225 - <?php _e('E-mail', 'traduset');?>: <a href="mailto:info@traduset.de">info@traduset.de</a>
+            <?php _e('Telephone', 'traduset');?>:<?php _e('+49 40 368 44 225', 'traduset');?> <?php _e('TelephoneNumber', 'traduset');?>- <?php _e('E-mail', 'traduset');?>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>">info@traduset.de</a>
         </div>
         <div id="header-right">
             <ul class="languages">
@@ -37,7 +37,7 @@ $z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=ba
         </div>
         </div>
 		<div class="site-branding">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/traduset_logo.png" alt="Traduset Übersetzungsbüro & Dolmetscherdient"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/<?php _e('traduset_logo.png', 'traduset');?>" alt="<?php _e('Traduset Übersetzungsbüro & Dolmetscherdient', 'traduset');?>"/>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
