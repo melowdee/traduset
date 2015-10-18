@@ -28,7 +28,7 @@ $z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=ba
 	<header id="masthead" class="site-header" role="banner">
         <div class="contact-data clearfix">
         <div class="floatleft">
-            <?php _e('Telephone', 'traduset');?>:<?php _e('+49 40 368 44 225', 'traduset');?> <?php _e('TelephoneNumber', 'traduset');?>- <?php _e('E-mail', 'traduset');?>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>">info@traduset.de</a>
+            <?php _e('Telephone', 'traduset');?>:<?php _e('+49 40 368 44 225', 'traduset');?> - <?php _e('E-mail', 'traduset');?>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>">info@traduset.de</a>
         </div>
         <div id="header-right">
             <ul class="languages">
