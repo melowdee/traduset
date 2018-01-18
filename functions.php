@@ -118,6 +118,7 @@ function traduset_scripts()
 
     wp_enqueue_script('traduset-superfisch-settings', get_template_directory_uri() . '/assets/js/superfish-settings.js', array('traduset-superfisch'), '20140927', true);
 
+	wp_enqueue_script('traduset-jquerytools', get_template_directory_uri() . '/assets/js/jquery.tools.min.js', array('jquery'), '20140927', true);
 
     wp_enqueue_script('traduset-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130115', true);
 
