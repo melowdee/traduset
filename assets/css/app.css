@@ -807,7 +807,6 @@ a:active {
     display: block;
 }
 .main-navigation li {
-    border-right: 1px #cccccc solid;
     float: left;
     position: relative;
     padding: 5px 40px;
