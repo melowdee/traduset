@@ -1277,7 +1277,7 @@ tooltip styling. by default the element to be styled is .tooltip
         float: none;
         width: 95%;
         min-height: 50px;
-        margin-top: none;
+        margin-top: unset;
         padding: 5px 5px 1px 5px;
     }
     #references img {
