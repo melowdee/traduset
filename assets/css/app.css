@@ -628,13 +628,13 @@ textarea {
     background: rgba(255, 255, 255, 0.75);
 }
 .success {
-    color: #5f2f26;
+    color: #333333;
     padding: 5px;
     background: rgba(255, 255, 255, 0.75);
 }
 .success h2 {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 #enquiry_form {
     border: 1px solid #999;
