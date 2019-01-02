@@ -170,3 +170,11 @@ function widget_get_content($attr)
     $content = $post->post_content;
     return do_shortcode($content);
 }
+
+/**
+* contact form 7 bug
+*/
+
+add_filter( 'wpcf7_load_js', '__return_false' );
+add_filter( 'wpcf7_support_html5_fallback', '__return_true' );
+
