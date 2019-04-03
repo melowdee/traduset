@@ -26,7 +26,7 @@
 0.0 - Variables
 -------------------------------------------------------------*/
 
-@page_backround_color: #4d5050;
+@page_background_color: #4d5050;
 @font-family-sans-serif: 'Merriweather Sans', 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif: 'Radley', Georgia, "Times New Roman", Times, serif;
 @font-family-monospace: 'Cutive Mono';
@@ -36,6 +36,9 @@
 @nav-hover: #753a2c;
 @menu-start-gradient: #954831;
 @menu-end-gradient: #bc4f38;
+@content_background_color: #f0ede7;
+@widget_background_color: #b9a693;
+
 
 /*--------------------------------------------------------------
 1.0 - Reset
@@ -80,7 +83,7 @@ html {
 }
 
 body {
-  background: @page_backround_color; /* Fallback for when there is no custom background color defined. */
+  background: @page_background_color; /* Fallback for when there is no custom background color defined. */
 }
 
 article,
@@ -320,7 +323,7 @@ header {
 
 div#page {
   max-width: 960px;
-  background: #e8e3cf;
+  background: @content_background_color;
   margin: 40px auto;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -352,7 +355,7 @@ div#page {
   width: 28%;
   min-height: 80%;
   padding: 5px 5px 0 5px;
-  background: #aa5e37;
+  background: #988e84;
   margin-top: 40px;
 }
 
@@ -603,6 +606,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
+  background: #f0ede7;
   border: 1px solid #ccc;
   border-radius: 3px;
   width: 62%;
@@ -719,10 +723,7 @@ textarea {
 }
 
 .widget.widget_traduset_enquiry_widget {
-  background: #cec8b0;
-  background: linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
-  background: -moz-linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
-  background: -webkit-linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
+  background: @widget_background_color;
 }
 
 #expressEnquiryForm label,
