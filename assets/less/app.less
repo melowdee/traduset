@@ -43,9 +43,9 @@
 /*--------------------------------------------------------------
 1.0 - Reset
 --------------------------------------------------------------*/
-@import url(//fonts.googleapis.com/css?family=Raleway:400,700,100,400italic);
-@import url(//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,400italic);
-@import url(//fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,100,400italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1159,10 +1159,7 @@ footer.site-footer {
 .widget {
   margin: 0 0 5px;
   padding: 5px;
-  background: #f2ecd4;
-  background: linear-gradient(top, #f2ecd4 0%, #f1ebd3 100%);
-  background: -moz-linear-gradient(top, #f2ecd4 0%, #f1ebd3 100%);
-  background: -webkit-linear-gradient(top, #f2ecd4 0%, #f1ebd3 100%);
+  background: @widget_background_color;
 }
 
 /* Make sure select elements fit in widgets */
