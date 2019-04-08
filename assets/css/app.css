@@ -425,6 +425,7 @@ div#page {
 header .contact-data {
     height: 26px;
     background: #1b1b1b;
+    font-family: "Merriweather", "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.8em;
     color: #ffffff;
     padding: 5px 20px;
@@ -434,9 +435,11 @@ header .contact-data {
 header .contact-data a {
     color: #ffffff;
 }
-header .contact-data a:visited,
 header .contact-data a:hover {
     color: #eeeeee;
+}
+header .contact-data a:visited {
+    color: #ffffff;
 }
 footer.site-footer {
     background: #1b1b1b;
