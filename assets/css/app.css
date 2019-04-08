@@ -488,8 +488,9 @@ ul.languages {
 ul.languages a {
     color: #ffffff;
 }
-ul.languages a:hover {
-    color: #7e3f2a;
+ul.languages a:hover,
+ul.languages a:visited {
+    color: #eeeeee;
 }
 ul.languages li {
     float: left;
