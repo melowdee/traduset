@@ -490,7 +490,7 @@ ul.languages a {
 }
 ul.languages a:hover,
 ul.languages a:visited {
-    color: #eeeeee;
+    color: #d0d0d0;
 }
 ul.languages li {
     float: left;
