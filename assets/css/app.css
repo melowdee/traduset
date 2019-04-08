@@ -434,6 +434,10 @@ header .contact-data {
 header .contact-data a {
     color: #ffffff;
 }
+header .contact-data a:visited,
+header .contact-data a:hover {
+    color: #eeeeee;
+}
 footer.site-footer {
     background: #1b1b1b;
     border-radius: 0 0 15px 15px;
