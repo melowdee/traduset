@@ -384,7 +384,7 @@ header {
 }
 div#page {
     max-width: 960px;
-    background: #f0ede7;
+    background: #f4f4f4;
     margin: 40px auto;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -412,7 +412,7 @@ div#page {
     width: 28%;
     min-height: 80%;
     padding: 5px 5px 0 5px;
-    background: #585656;
+    background: #bdbbbb;
     margin-top: 40px;
 }
 #tertiary {
@@ -424,7 +424,7 @@ div#page {
 }
 header .contact-data {
     height: 26px;
-    background: #c6c6c6;
+    background: #1b1b1b;
     font-size: 0.8em;
     color: #ffffff;
     padding: 5px 20px;
@@ -435,11 +435,16 @@ header .contact-data a {
     color: #ffffff;
 }
 footer.site-footer {
-    background: #beb8a0;
+    background: #1b1b1b;
     border-radius: 0 0 15px 15px;
+    color: #ffffff;
     font-size: 0.6em;
     height: 32px;
     padding: 8px 15px;
+}
+footer.site-footer a,
+footer.site-footer a:visited {
+    color: #eeeeee;
 }
 header .site-branding,
 #content {
@@ -625,7 +630,7 @@ input[type="password"],
 input[type="search"],
 textarea {
     color: #666;
-    background: #f0ede7;
+    background: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 62%;
@@ -733,7 +738,7 @@ textarea {
     font-size: 75%;
 }
 .widget.widget_traduset_enquiry_widget {
-    background: #676767;
+    background: #c6c6c6;
 }
 #expressEnquiryForm label,
 #expressEnquiryForm .radioset {
@@ -1102,7 +1107,7 @@ a:active {
 .widget {
     margin: 0 0 5px;
     padding: 5px;
-    background: #676767;
+    background: #c6c6c6;
     color: #eeeeee;
 }
 /* Make sure select elements fit in widgets */

@@ -36,8 +36,9 @@
 @nav-hover: #753a2c;
 @menu-start-gradient: #954831;
 @menu-end-gradient: #bc4f38;
-@content_background_color: #f0ede7;
-@widget_background_color: #676767;
+@content_background_color: #f4f4f4;
+@widget_background_color: #c6c6c6;
+@header_footer_background: #1b1b1b;
 
 
 /*--------------------------------------------------------------
@@ -236,7 +237,7 @@ blockquote p {
   padding: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  background-color: #c6c6c6;
+  background-color: @widget_background_color;
   max-width: 450px;
   font-style: italic;
 
@@ -355,7 +356,7 @@ div#page {
   width: 28%;
   min-height: 80%;
   padding: 5px 5px 0 5px;
-  background: #585656;
+  background: #bdbbbb;
   margin-top: 40px;
 }
 
@@ -369,7 +370,7 @@ div#page {
 
 header .contact-data {
   height: 26px;
-  background: #c6c6c6;
+  background: @header_footer_background;
   font-size: 0.8em;
   color: #ffffff;
   padding: 5px 20px;
@@ -381,11 +382,15 @@ header .contact-data {
 }
 
 footer.site-footer {
-  background: #beb8a0;
+  background: @header_footer_background;
   border-radius: 0 0 15px 15px;
+  color: #ffffff;
   font-size: 0.6em;
   height: 32px;
   padding: 8px 15px;
+  a, a:visited {
+    color: #eeeeee;
+  }
 }
 
 header .site-branding,
@@ -603,7 +608,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  background: #f0ede7;
+  background: @content_background_color;
   border: 1px solid #ccc;
   border-radius: 3px;
   width: 62%;
