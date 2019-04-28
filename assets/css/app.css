@@ -704,10 +704,7 @@ textarea {
     margin: 5px 0;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background: #dad4bc;
-    background: linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
-    background: -moz-linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
-    background: -webkit-linear-gradient(top, #cec8b0 0%, #dad4bc 100%);
+    background: #cccccc;
 }
 #enquiry_form label {
     font-family: 'Merriweather Sans', 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
