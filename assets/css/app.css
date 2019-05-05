@@ -408,10 +408,9 @@ div#page {
 }
 #secondary {
     float: right;
-    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 0.81);
     width: 28%;
     min-height: 80%;
-    padding: 5px 5px 0 5px;
+    padding: 2px 2px 0 2px;
     background: #acacac;
     margin-top: 40px;
 }
@@ -1108,7 +1107,7 @@ a:active {
 9.0 Widgets
 --------------------------------------------------------------*/
 .widget {
-    margin: 0 0 5px;
+    margin: 0 0 2px;
     padding: 5px;
     background: #cccccc;
     color: #333333;
