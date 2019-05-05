@@ -10,11 +10,12 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> xmlns="http://www.w3.org/1999/html">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- TrustBox script -->
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <!-- End Trustbox script -->
@@ -28,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
         <div class="contact-data clearfix">
         <div class="floatleft">
-            <?php _e('Telephone', 'traduset');?>:<?php _e('+49 40 855 098 23', 'traduset');?> - <?php _e('E-mail', 'traduset');?>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>"><?php _e('info@traduset.de', 'traduset');?></a>
+            <i class="material-icons" style="font-size:24px;color:#ffffff;">phone</i>:<?php _e('+49 40 855 098 23', 'traduset');?> - <i class="material-icons" style="font-size:24px;color:#ffffff;">email</i>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>"><?php _e('info@traduset.de', 'traduset');?></a>
         </div>
         <div id="header-right">
             <ul class="languages">
