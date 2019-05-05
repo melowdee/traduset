@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
         <div class="contact-data clearfix">
         <div class="floatleft">
-            <i class="material-icons" style="font-size:24px;color:#ffffff;">phone</i>:<?php _e('+49 40 855 098 23', 'traduset');?> - <i class="material-icons" style="font-size:24px;color:#ffffff;">email</i>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>"><?php _e('info@traduset.de', 'traduset');?></a>
+            <i class="material-icons" style="font-size:20px;color:#ffffff;margin-right: 5px;">phone</i>:<?php _e('+49 40 855 098 23', 'traduset');?> - <i class="material-icons" style="font-size:20px;color:#ffffff;margin-right: 5px;">email</i>: <a href="mailto:<?php _e('info@traduset.de', 'traduset');?>"><?php _e('info@traduset.de', 'traduset');?></a>
         </div>
         <div id="header-right">
             <ul class="languages">
