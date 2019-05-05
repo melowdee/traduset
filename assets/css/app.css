@@ -412,7 +412,7 @@ div#page {
     width: 28%;
     min-height: 80%;
     padding: 5px 5px 0 5px;
-    background: #aa5e37;
+    background: #acacac;
     margin-top: 40px;
 }
 #tertiary {
@@ -821,16 +821,16 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-    color: #aa5e37;
+    color: #889b9c;
     text-decoration: none;
 }
 a:visited {
-    color: #aa5e37;
+    color: #889b9c;
 }
 a:hover,
 a:focus,
 a:active {
-    color: #7e3f2a;
+    color: #6b7e7f;
 }
 /*--------------------------------------------------------------
 5.2 Menus
@@ -842,7 +842,7 @@ a:active {
     font-size: 0.84em;
     height: 30px;
     width: 100%;
-    background: #cccccc;
+    background: #a8a8a8;
     /*  background: linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -moz-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -webkit-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);*/
@@ -853,7 +853,7 @@ a:active {
     color: #ffffff;
 }
 .main-navigation ul {
-    background: #cccccc;
+    background: #a8a8a8;
     /*  background: linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -moz-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -webkit-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
@@ -902,7 +902,7 @@ a:active {
     border: none;
 }
 .main-navigation li:hover {
-    background: #a8a8a8;
+    background: #8f8f8f;
     color: #ffffff;
 }
 .main-navigation ul li:hover > ul {
