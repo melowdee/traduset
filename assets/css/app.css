@@ -384,7 +384,7 @@ header {
 }
 div#page {
     max-width: 960px;
-    background: #ffffff;
+    background: #e6e4e4;
     margin: 40px auto;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -456,6 +456,14 @@ header .site-branding,
 }
 #header-right {
     float: right;
+}
+.header-icons {
+    position: relative;
+    top: 3px;
+}
+.header-icons i {
+    font-size: 20px;
+    color: #ffffff;
 }
 hr {
     background-color: #432121;
@@ -636,7 +644,7 @@ input[type="password"],
 input[type="search"],
 textarea {
     color: #666;
-    background: #ffffff;
+    background: #e6e4e4;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 62%;
