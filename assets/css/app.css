@@ -384,7 +384,7 @@ header {
 }
 div#page {
     max-width: 960px;
-    background: #e6e4e4;
+    background: #f6f4f4;
     margin: 40px auto;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -644,7 +644,7 @@ input[type="password"],
 input[type="search"],
 textarea {
     color: #666;
-    background: #e6e4e4;
+    background: #f6f4f4;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 62%;
@@ -828,16 +828,16 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-    color: #889b9c;
+    color: #b16424;
     text-decoration: none;
 }
 a:visited {
-    color: #889b9c;
+    color: #b16424;
 }
 a:hover,
 a:focus,
 a:active {
-    color: #6b7e7f;
+    color: #964c24;
 }
 /*--------------------------------------------------------------
 5.2 Menus
@@ -849,7 +849,7 @@ a:active {
     font-size: 0.84em;
     height: 30px;
     width: 100%;
-    background: #a8a8a8;
+    background: #b16424;
     /*  background: linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -moz-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -webkit-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);*/
@@ -860,7 +860,7 @@ a:active {
     color: #ffffff;
 }
 .main-navigation ul {
-    background: #a8a8a8;
+    background: #b16424;
     /*  background: linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -moz-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
     background: -webkit-linear-gradient(top, @menu-start-gradient 0%, @menu-end-gradient 100%);
