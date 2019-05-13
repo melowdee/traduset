@@ -909,7 +909,7 @@ a:active {
     border: none;
 }
 .main-navigation li:hover {
-    background: #8f8f8f;
+    background: #964c24;
     color: #ffffff;
 }
 .main-navigation ul li:hover > ul {
