@@ -307,7 +307,7 @@ blockquote p {
     padding: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    background-color: #cccccc;
+    background-color: #c7c6c6;
     max-width: 450px;
     font-style: italic;
 }
@@ -749,7 +749,7 @@ textarea {
     font-size: 75%;
 }
 .widget.widget_traduset_enquiry_widget {
-    background: #cccccc;
+    background: #c7c6c6;
 }
 #expressEnquiryForm label,
 #expressEnquiryForm .radioset {
@@ -1117,7 +1117,7 @@ a:active {
 .widget {
     margin: 0 0 2px;
     padding: 5px;
-    background: #cccccc;
+    background: #c7c6c6;
     color: #333333;
 }
 /* Make sure select elements fit in widgets */
