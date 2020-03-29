@@ -421,6 +421,9 @@ div#page {
     background: none;
     margin-top: 20px;
 }
+#tertiary h1 {
+    color: #333333;
+}
 header .contact-data {
     height: 26px;
     font-family: "Merriweather", "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
