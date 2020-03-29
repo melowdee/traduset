@@ -32,6 +32,7 @@
 @font-family-monospace: 'Cutive Mono';
 @font-size: 16px;
 @font-color: #333333;
+@link-color: #6B7B7E;
 @nav-height: 30px;
 @nav-hover: #6a707b;
 @menu-start-gradient: #8d939e;
@@ -826,18 +827,18 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #b16424;
+  color: @link-color;
   text-decoration: none;
 }
 
 a:visited {
-  color: #b16424;
+  color: @link-color;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #964c24;
+  color: darken(@link-color, 20%);
 }
 
 /*--------------------------------------------------------------
