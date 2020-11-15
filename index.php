@@ -11,7 +11,9 @@
  * @package traduset
  */
 
-
+if (! defined('ABSPATH')){
+	die('Access Denied.');
+}
 get_header(); ?>
 
 	<div id="primary" class="content-area">
