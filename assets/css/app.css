@@ -32,55 +32,55 @@
     font-family: 'Raleway';
     font-style: italic;
     font-weight: 400;
-    src: local('Raleway Italic'), local('Raleway-Italic'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptsg8zYS_SKggPNyCg4TYFv.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 100;
-    src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptsg8zYS_SKggPNwE44TYFv.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: italic;
     font-weight: 400;
-    src: local('Merriweather Sans Italic'), local('MerriweatherSans-Italic'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c79IRs1JiJN1FRAMjTN5zd9vgsFHXwcjfj8g.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cM9IRs1JiJN1FRAMjTN5zd9vgsFHXwWDvLBsPDdpWMaq3NzdsFxxA.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 300;
-    src: local('Merriweather Sans Light'), local('MerriweatherSans-Light'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1eYCDE0hM.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 400;
-    src: local('Merriweather Sans'), local('MerriweatherSans-Regular'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjA.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
-    src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1OZyDE0hM.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Cutive Mono';
     font-style: normal;
     font-weight: 400;
-    src: local('Cutive Mono Regular'), local('CutiveMono-Regular'), url(https://fonts.gstatic.com/s/cutivemono/v8/m8JWjfRfY7WVjVi2E-K9H6RCTms.ttf) format('truetype');
+    src: local('Cutive Mono Regular'), local('CutiveMono-Regular'), url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RCTms.ttf) format('truetype');
 }
 html,
 body,
@@ -307,7 +307,7 @@ blockquote p {
     padding: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    background-color: #A3A8B1;
+    background-color: #e4e4e4;
     max-width: 450px;
     font-style: italic;
 }
@@ -752,7 +752,7 @@ textarea {
     font-size: 75%;
 }
 .widget.widget_traduset_enquiry_widget {
-    background: #A3A8B1;
+    background: #6B7B7E;
     color: #ffffff;
 }
 #expressEnquiryForm label,
@@ -832,16 +832,16 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-    color: #6B7B7E;
+    color: #A3A8B1;
     text-decoration: none;
 }
 a:visited {
-    color: #6B7B7E;
+    color: #A3A8B1;
 }
 a:hover,
 a:focus,
 a:active {
-    color: #3c4547;
+    color: #6d7481;
 }
 /*--------------------------------------------------------------
 5.2 Menus
@@ -1121,7 +1121,7 @@ a:active {
 .widget {
     margin: 0 0 2px;
     padding: 5px;
-    background: #A3A8B1;
+    background: #6B7B7E;
     color: #ffffff;
 }
 /* Make sure select elements fit in widgets */
