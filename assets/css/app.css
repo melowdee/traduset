@@ -32,55 +32,55 @@
     font-family: 'Raleway';
     font-style: italic;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CIPrQ.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrQ.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrQ.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: italic;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cM9IRs1JiJN1FRAMjTN5zd9vgsFHXwWDvLBsPDdpWMaq3NzdsFxxA.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cM9IRs1JiJN1FRAMjTN5zd9vgsFHXwWDvLBsPDdpWMaq3NzdsFxxA.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ViesC.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesC.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/merriweathersans/v13/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekViesC.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekViesC.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Cutive Mono';
     font-style: normal;
     font-weight: 400;
-    src: local('Cutive Mono Regular'), local('CutiveMono-Regular'), url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RCTms.ttf) format('truetype');
+    src: url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RCTms.ttf) format('truetype');
 }
 html,
 body,
@@ -396,7 +396,7 @@ div#page {
     max-width: 960px;
     height: 240px;
     border-radius: 15px 15px 0 0;
-    background: #6B7B7E;
+    background: #859A97;
     /*  background: linear-gradient(top, #63908e 0%, #83b4b2 100%);
     background: -moz-linear-gradient(top, #63908e 0%, #83b4b2 100%);
     background: -webkit-linear-gradient(top, #63908e 0%, #83b4b2 100%)*/
@@ -752,7 +752,7 @@ textarea {
     font-size: 75%;
 }
 .widget.widget_traduset_enquiry_widget {
-    background: #6B7B7E;
+    background: #859A97;
     color: #ffffff;
 }
 #expressEnquiryForm label,
@@ -1121,7 +1121,7 @@ a:active {
 .widget {
     margin: 0 0 2px;
     padding: 5px;
-    background: #6B7B7E;
+    background: #859A97;
     color: #ffffff;
 }
 /* Make sure select elements fit in widgets */
